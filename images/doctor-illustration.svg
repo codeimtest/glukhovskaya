@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Стилизованная иллюстрация врача в белом халате">
+  <defs>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fffefa"/>
+      <stop offset="1" stop-color="#dce8df"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f0c9aa"/>
+      <stop offset="1" stop-color="#d9a486"/>
+    </linearGradient>
+  </defs>
+  <circle cx="202" cy="152" r="83" fill="#d6b29b" opacity=".32"/>
+  <path d="M115 153 Q105 47 207 54 Q295 58 281 174 L266 229 L128 219Z" fill="#513d35"/>
+  <path d="M145 129 Q145 78 203 78 Q259 78 260 135 L251 188 Q240 226 202 230 Q164 224 151 187Z" fill="url(#skin)"/>
+  <path d="M143 139 Q135 79 184 63 Q238 43 270 104 Q243 85 222 88 Q194 106 152 105Z" fill="#513d35"/>
+  <path d="M161 146 Q174 139 186 146 M220 146 Q234 139 246 146" stroke="#61483f" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M197 151 L191 174 L204 177" stroke="#bd876d" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M180 194 Q202 207 226 192" stroke="#a75f5a" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M170 223 L164 257 L202 290 L241 255 L231 220" fill="url(#skin)"/>
+  <path d="M92 500 L104 337 Q114 275 163 253 L201 292 L239 253 Q290 273 304 337 L320 500Z" fill="url(#coat)"/>
+  <path d="M163 253 L201 292 L178 330 L145 271Z" fill="#bfd7c7"/>
+  <path d="M239 253 L201 292 L224 330 L258 271Z" fill="#bfd7c7"/>
+  <path d="M201 292 L201 500" stroke="#c6d8cd" stroke-width="2"/>
+  <path d="M147 304 L179 339 L162 361 L132 320Z M257 304 L225 339 L242 361 L273 320Z" fill="#fffefa"/>
+  <path d="M255 333 Q281 353 271 390 L254 418" stroke="#6c8f7b" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <circle cx="252" cy="425" r="10" fill="none" stroke="#6c8f7b" stroke-width="4"/>
+  <path d="M252 435 L252 466" stroke="#6c8f7b" stroke-width="4"/>
+  <rect x="121" y="343" width="48" height="63" rx="4" fill="#e5eee7" stroke="#b7d0c0"/>
+  <path d="M131 356 H158 M131 367 H153 M131 378 H157" stroke="#91b5a0" stroke-width="3" stroke-linecap="round"/>
+</svg>
