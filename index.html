@@ -11,6 +11,16 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="icon-spark" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 2v20M4.9 4.9l14.2 14.2M2 12h20M19.1 4.9L4.9 19.1"/></g></symbol>
+<symbol id="icon-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 20.3s-7.2-4.6-9.5-9C1 8.2 2.7 4.3 6.1 4.3c2.1 0 3.6 1.2 5.9 3.8 2.3-2.6 3.8-3.8 5.9-3.8 3.4 0 5.1 3.9 3.6 7-2.3 4.4-9.5 9-9.5 9z"/></symbol>
+<symbol id="icon-sparkle" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1c.5 6 5 10.5 11 11-6 .5-10.5 5-11 11-.5-6-5-10.5-11-11C7 11.5 11.5 7 12 1z"/></symbol>
+<symbol id="icon-arrow-ne" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></g></symbol>
+<symbol id="icon-arrow-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="icon-arrow-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></symbol>
+<symbol id="icon-arrow-up" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></g></symbol>
+<symbol id="icon-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.3l2.9 6 6.6.9-4.8 4.6 1.2 6.6L12 17.3l-5.9 3.1 1.2-6.6L2.5 9.2l6.6-.9z"/></symbol>
+</defs></svg>
 <div class="noise"></div>
 <header class="nav">
   <div class="nav-inner wrap">
@@ -41,20 +51,20 @@
       </div>
       <a class="btn btn-primary" href="#" data-modal-open="offline" role="button">Очный приём</a><a class="btn btn-secondary" href="#" data-modal-open="online" role="button">Консультацию онлайн</a>
     </div>
-    <div class="hero-note reveal delay-3"><div class="avatar-stack"><span>✳</span><span>+</span><span>♡</span></div><span>Внимание к человеку, а не только к симптомам</span></div>
+    <div class="hero-note reveal delay-3"><div class="avatar-stack"><span><svg class="i" aria-hidden="true"><use href="#icon-spark"/></svg></span><span>+</span><span><svg class="i" aria-hidden="true"><use href="#icon-heart"/></svg></span></div><span>Внимание к человеку, а не только к симптомам</span></div>
   </div>
   <div class="hero-art reveal delay-2" aria-label="Абстрактная иллюстрация врача">
     <div class="art-halo"></div>
     <div class="portrait">
       <img src="images/profile.png" alt="Стилизованная иллюстрация врача в белом халате">
-      <div class="portrait-label"><div><strong>Ксения Глуховская</strong><small>Врач общей практики</small></div><span style="font-size:22px;color:#70977f">✳</span></div>
+      <div class="portrait-label"><div><strong>Ксения Глуховская</strong><small>Врач общей практики</small></div><span style="font-size:22px;color:#70977f"><svg class="i" aria-hidden="true"><use href="#icon-spark"/></svg></span></div>
     </div>
-    <div class="seal"><div><b>♡</b> забота<br>и знания</div></div>
-    <div class="floating float-one"><small>Подход</small><strong><span class="spark">✳</span>Доказательная медицина</strong></div>
-    <div class="floating float-two"><small>Формат приёма</small><strong>↗ Очный и онлайн</strong></div>
+    <div class="seal"><div><b><svg class="i" aria-hidden="true"><use href="#icon-heart"/></svg></b> забота<br>и знания</div></div>
+    <div class="floating float-one"><small>Подход</small><strong><svg class="i spark" aria-hidden="true"><use href="#icon-spark"/></svg>Доказательная медицина</strong></div>
+    <div class="floating float-two"><small>Формат приёма</small><strong><svg class="i" aria-hidden="true"><use href="#icon-arrow-ne"/></svg> Очный и онлайн</strong></div>
   </div>
 </section>
-<div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Доказательная медицина <i>✳</i></span><span>Внимание к деталям <i>✳</i></span><span>Партнёрство с пациентом <i>✳</i></span><span>Здоровье в фокусе <i>✳</i></span><span>Доказательная медицина <i>✳</i></span><span>Внимание к деталям <i>✳</i></span><span>Партнёрство с пациентом <i>✳</i></span><span>Здоровье в фокусе <i>✳</i></span></div></div>
+<div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Доказательная медицина><i><svg class="i" aria-hidden="true"><use href="#icon-spark"/></svg></i></span><span>Внимание к деталям<i><svg class="i" aria-hidden="true"><use href="#icon-spark"/></svg></i></span><span>Партнёрство с пациентом<i><svg class="i" aria-hidden="true"><use href="#icon-spark"/></svg></i></span><span>Здоровье в фокусе<i><svg class="i" aria-hidden="true"><use href="#icon-spark"/></svg></i></span><span>Доказательная медицина><i><svg class="i" aria-hidden="true"><use href="#icon-spark"/></svg></i></span><span>Внимание к деталям<i><svg class="i" aria-hidden="true"><use href="#icon-spark"/></svg></i></span><span>Партнёрство с пациентом<i><svg class="i" aria-hidden="true"><use href="#icon-spark"/></svg></i></span><span>Здоровье в фокусе<i><svg class="i" aria-hidden="true"><use href="#icon-spark"/></svg></i></span></div></div>
 
 <section class="wrap" id="about">
   <div class="section-head reveal"><div><h2 class="section-title">Врач <em>о себе</em></h2></div><p class="section-intro">Комплексный взгляд на здоровье, внимательное отношение и решения, которые мы принимаем вместе.</p></div>
@@ -126,8 +136,8 @@
 
 <section class="wrap">
   <div class="section-head reveal"><div><h2 class="section-title">Профессиональные <em>достижения</em></h2></div></div>
-  <div class="honor reveal"><div class="honor-icon">✦</div><div><h3>VI Международная олимпиада врачей-терапевтов</h3><p>Участие в олимпиаде для участковых терапевтов, врачей общей практики (семейных врачей) и интернистов.</p></div></div>
-  <div class="association reveal"><div><span>Медицинская ассоциация</span><br><strong>Евразийская ассоциация терапевтов</strong></div><span>Профессиональное сообщество ↗</span></div>
+  <div class="honor reveal"><div class="honor-icon"><svg class="i" aria-hidden="true"><use href="#icon-sparkle"/></svg></div><div><h3>VI Международная олимпиада врачей-терапевтов</h3><p>Участие в олимпиаде для участковых терапевтов, врачей общей практики (семейных врачей) и интернистов.</p></div></div>
+  <div class="association reveal"><div><span>Медицинская ассоциация</span><br><strong>Евразийская ассоциация терапевтов</strong></div><span>Профессиональное сообщество <svg class="i" aria-hidden="true"><use href="#icon-arrow-ne"/></svg></span></div>
 </section>
 
 <section class="wrap">
@@ -142,85 +152,85 @@
   <div class="section-head reveal">
     <div><h2 class="section-title">Отзывы <em>пациентов</em></h2></div>
     <div class="reviews-nav">
-      <button class="review-btn review-prev" id="reviewPrev" aria-label="Предыдущий отзыв">←</button>
-      <button class="review-btn review-next" id="reviewNext" aria-label="Следующий отзыв">→</button>
+      <button class="review-btn review-prev" id="reviewPrev" aria-label="Предыдущий отзыв"><svg class="i" aria-hidden="true"><use href="#icon-arrow-left"/></svg></button>
+      <button class="review-btn review-next" id="reviewNext" aria-label="Следующий отзыв"><svg class="i" aria-hidden="true"><use href="#icon-arrow-right"/></svg></button>
     </div>
   </div>
   <div class="swiper reviews-swiper reveal">
     <div class="swiper-wrapper">
       <div class="swiper-slide review">
         <div class="review-body">
-          <div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <div class="review-stars" aria-label="Оценка 5 из 5"><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg></div>
           <p class="review-text">Обратилась к врачу с целью прохождения диспансеризации, врач помог оформить все направления к нужным специалистам. После прохождения диспансеризации дала рекомендации и советы по дополнительным анализам, в том числе был низкий гемоглобин, проверили витамин В12, оказался низким, составили план лечения.</p>
         </div>
         <div class="review-date">3 августа 2026</div>
       </div>
       <div class="swiper-slide review">
         <div class="review-body">
-          <div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <div class="review-stars" aria-label="Оценка 5 из 5"><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg></div>
           <p class="review-text">Обратилась в сеть клиник «Семейный доктор» с целью проведения дополнительной вакцинации против менингококковой инфекции и клещевого энцефалита. Хочу выразить огромную благодарность и отметить компетентность, открытость, эмпатию Ксении Андреевны, а всем пациентам клиники «Семейный доктор» не бояться вакцинации, больше одной вакцины делать можно и безопасно.</p>
         </div>
         <div class="review-date">3 августа 2026</div>
       </div>
       <div class="swiper-slide review">
         <div class="review-body">
-          <div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <div class="review-stars" aria-label="Оценка 5 из 5"><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg></div>
           <p class="review-text">Обратилась к врачу с анемией. Но в итоге обсудили мое здоровье от и до, дала много полезных рекомендаций. Врача выбирала исходя из свободного времени приема на день и я осталась невероятно довольна! Очень приятная в общении, чувствуется профессионализм в сочетании с добротой врача, а это очень важно, как мне кажется. Очень комфортное общение, рекомендации по делу.</p>
         </div>
         <div class="review-date">3 августа 2026</div>
       </div>
       <div class="swiper-slide review">
         <div class="review-body">
-          <div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <div class="review-stars" aria-label="Оценка 5 из 5"><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg></div>
           <p class="review-text">Направили после ЭКГ с изменениями. Обратилась насчет расшифровки ЭКГ, за направлением к кардиологу и за консультацией по общему состоянию. Врач провел опрос и дал рекомендации. Померили давление, сатурацию, пульс и дали направление на ЭХО и к кардиологу.</p>
         </div>
         <div class="review-date">15 июля 2026</div>
       </div>
       <div class="swiper-slide review">
         <div class="review-body">
-          <div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <div class="review-stars" aria-label="Оценка 5 из 5"><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg></div>
           <p class="review-text">Невероятно чуткий и отзывчивый врач! Полностью произвела обследование, задала много уточняющих вопросов. Были выписаны необходимые направления и рекомендации для решения моих проблем. Теперь буду ходить только к Ксении Андреевне!</p>
         </div>
         <div class="review-date">15 июня 2026</div>
       </div>
       <div class="swiper-slide review">
         <div class="review-body">
-          <div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <div class="review-stars" aria-label="Оценка 5 из 5"><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg></div>
           <p class="review-text">Было неожиданно и невероятно приятно получить такое небезразличное, невероятно чуткое и доброе отношение к себе! Это тот самый редкий случай, когда специалист на своём месте, очень серьёзно и тщательно подходит к здоровью пациента, вежливо всё разъясняет! Храни вас Бог, Ксения Андреевна!</p>
         </div>
         <div class="review-date">25 января 2025</div>
       </div>
       <div class="swiper-slide review">
         <div class="review-body">
-          <div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <div class="review-stars" aria-label="Оценка 5 из 5"><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg></div>
           <p class="review-text">Я обращалась с просьбой повторной записи к неврологу. Ксения внимательно меня выслушала, спросила, какие обследования я уже проходила. Проконсультировала по дальнейшим действиям, записала к неврологу на ближайшее время. Приятная [...], располагает. Буду ловить окошки, чтобы обращаться к ней.</p>
         </div>
         <div class="review-date">9 декабря 2024</div>
       </div>
       <div class="swiper-slide review">
         <div class="review-body">
-          <div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <div class="review-stars" aria-label="Оценка 5 из 5"><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg></div>
           <p class="review-text">Прихватила спина, записалась к терапевту. Удивительно, но получилось в субботу попасть к врачу. На приеме была Ксения Андреевна. Доктор очень внимательно опросил, потом осмотрел. Лечение назначила сразу, но сказала, что надо менять образ жизни, а с моей работой это практически нереально. Вежливый, приятный человек. Сложилось впечатление, что есть заинтересованность в помощи пациенту, а не на "отвали", как часто бывает в поликлинике.</p>
         </div>
         <div class="review-date">6 августа 2024</div>
       </div>
       <div class="swiper-slide review">
         <div class="review-body">
-          <div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <div class="review-stars" aria-label="Оценка 5 из 5"><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg></div>
           <p class="review-text">Обращался к доктору за выпиской льготного рецепта для мамы. Поскольку матушка на даче и в силу преклонного возраста и слабого здоровья не может самостоятельно посетить в данный момент доктора. А вопрос с лекарствами для неё очень критичен.</p>
         </div>
         <div class="review-date">17 июля 2024</div>
       </div>
        <div class="swiper-slide review">
         <div class="review-body">
-          <div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div>
+          <div class="review-stars" aria-label="Оценка 5 из 5"><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg><svg class="i" aria-hidden="true"><use href="#icon-star"/></svg></div>
           <p class="review-text">Редко обращаюсь в поликлиники, но припекло, как говорится. Записался к первому свободному врачу, это оказалась Ксения Андреевна. Выслушала и назначила лечение, однозначно посоветую как специалиста. Прекрасный молодой специалист, внимательная и заинтересованная.</p>
         </div>
         <div class="review-date">27 декабря 2022</div>
       </div>
     </div>
   </div>
-  <div class="reviews-cta reveal"><a class="btn btn-primary" href="https://prodoctorov.ru/moskva/vrach/977326-gluhovskaya" target="_blank" rel="noopener noreferrer">Оставить свой отзыв <span>↗</span></a></div>
+  <div class="reviews-cta reveal"><a class="btn btn-primary" href="https://prodoctorov.ru/moskva/vrach/977326-gluhovskaya" target="_blank" rel="noopener noreferrer">Оставить свой отзыв <span><svg class="i" aria-hidden="true"><use href="#icon-arrow-ne"/></svg></span></a></div>
 </section>
 
 <section class="wrap" id="contacts">
@@ -260,7 +270,7 @@
   </div>
   <button class="social-toggle" id="socialToggle" type="button" aria-label="Показать соцсети" aria-expanded="false" aria-controls="socialList"><span>Соцсети</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
 </div>
-<button class="to-top" id="toTop" type="button" aria-label="Наверх">↑</button>
+<button class="to-top" id="toTop" type="button" aria-label="Наверх"><svg class="i" aria-hidden="true"><use href="#icon-arrow-up"/></svg></button>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite">
   <p>Мы используем файлы cookie, чтобы сайт работал корректно и был удобен для вас. Подробнее — в нашей <a href="#">Политике конфиденциальности</a>.</p>
@@ -277,7 +287,7 @@
     <p class="modal-text">Консультация проходит в текстовом формате на основании анкеты и фотографий. Для получения информации о записи обратитесь к ассистенту, нажав на кнопку.</p>
     <p class="modal-text modal-note">Обратите внимание: консультации проходят с лицами старше 18 лет.</p>
     <div class="modal-actions">
-      <a class="btn btn-primary" href="https://docma.ru/product/glukhovskayaka/#appeal" target="_blank" rel="noopener noreferrer">Перейти к записи <span>↗</span></a>
+      <a class="btn btn-primary" href="https://docma.ru/product/glukhovskayaka/#appeal" target="_blank" rel="noopener noreferrer">Перейти к записи <span><svg class="i" aria-hidden="true"><use href="#icon-arrow-ne"/></svg></span></a>
       <a class="btn btn-secondary" href="#" data-modal-open="offline" role="button">Очный приём</a>
     </div>
   </div>
@@ -293,7 +303,7 @@
     <p class="modal-text">Вы можете записаться очно ко мне или к врачам моей команды, с которыми мы работаем по одним принципам и ведём пациентов совместно. Запись возможна и на информационную онлайн-консультацию, которая не заменяет очного приёма.</p>
     <p class="modal-text modal-note">Обратите внимание: консультации проходят с лицами старше 18 лет.</p>
     <div class="modal-actions">
-      <a class="btn btn-primary" href="https://setpol.ru/glukhovskaya-kseniya-andreevna/#booking" target="_blank" rel="noopener noreferrer">Перейти к записи <span>↗</span></a>
+      <a class="btn btn-primary" href="https://setpol.ru/glukhovskaya-kseniya-andreevna/#booking" target="_blank" rel="noopener noreferrer">Перейти к записи <span><svg class="i" aria-hidden="true"><use href="#icon-arrow-ne"/></svg></span></a>
       <a class="btn btn-secondary" href="#" data-modal-open="online" role="button">Онлайн-консультация</a>
     </div>
   </div>
